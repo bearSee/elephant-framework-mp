@@ -1,0 +1,1 @@
+<view><canvas class="canvas" style="{{'height:'+(canvasHeight+'px')+';'}}" canvas-id="canvas"></canvas><image style="border:1px solid #000;" src="{{tempFilePath}}" mode="widthFix"></image></view>

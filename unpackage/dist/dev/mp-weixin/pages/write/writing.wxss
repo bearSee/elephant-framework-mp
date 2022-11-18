@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 颜色变量 */
+/* 主题 */
+/* 文本 */
+/* 边框 */
+/* 图片地址 */
+/* 。。。。 */
+.writing {
+  padding: 32rpx;
+  font-family: Gen Jyuu Gothic-Regular, Gen Jyuu Gothic;
+  font-weight: 400;
+}
+.writing .special-content .submit-box {
+  display: flex;
+  margin-bottom: 8rpx;
+}
+.writing .special-content .submit-box .title-box {
+  width: calc(100% - 140rpx);
+  margin-right: 20rpx;
+}
+.writing .special-content .submit-box .title-box .title {
+  font-size: 32rpx;
+  color: #303030;
+  line-height: 48rpx;
+  margin-bottom: 8rpx;
+}
+.writing .special-content .submit-box .title-box .title-des {
+  font-size: 28rpx;
+  color: #666666;
+  line-height: 42rpx;
+}
+.writing .special-content .submit-box .submit {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #FF8151;
+  border-radius: 20rpx;
+  border: 1rpx solid #FF8151;
+  text-align: center;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  margin-top: 10rpx;
+}
+.writing .special-content .des {
+  font-size: 24rpx;
+  color: #CCCCCC;
+  line-height: 36rpx;
+}
+.writing .writing-content {
+  margin-top: 56rpx;
+}
+.writing .writing-content .title {
+  text-align: center;
+  font-size: 36rpx;
+  padding: 16rpx 0;
+  border-bottom: 1px solid #D8D8D8;
+}
+.writing .writing-content .content {
+  padding: 22rpx 0;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 42rpx;
+  height: 460rpx;
+}
+

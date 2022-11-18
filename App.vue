@@ -1,0 +1,43 @@
+<script>
+  export default {
+    onLaunch: function() {
+      console.log('App Launch')
+    },
+    onShow: function() {
+      console.log('App Show')
+    },
+    onHide: function() {
+      console.log('App Hide')
+    }
+  }
+</script>
+
+<style>
+.container {
+	padding: 15px;
+}
+
+.cut_font, .cut_font_1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cut_font_2 {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.1;
+}
+
+.cut_font_3 {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.1;
+}
+</style>

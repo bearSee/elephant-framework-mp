@@ -1,0 +1,11 @@
+{
+  "locale.auto": "系統",
+  "locale.en": "English",
+  "locale.zh-hans": "简体中文",
+  "locale.zh-hant": "繁體中文",
+  "locale.ja": "日语",
+  "local.title":"國際化",
+  "api.title":"介面請求攔截器",
+  "index.home": "主頁",
+  "index.my": "我的"
+}

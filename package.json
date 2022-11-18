@@ -1,0 +1,13 @@
+{
+    "id": "uni-hello",
+    "name": "Hello",
+    "version": "1.0.0",
+    "description": "模板项目",
+    "keywords": [
+    ],
+    "dcloudext": {
+        "category": [
+            "镜象科技前端团队"
+        ]
+    }
+}

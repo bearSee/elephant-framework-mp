@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 颜色变量 */
+/* 主题 */
+/* 文本 */
+/* 边框 */
+/* 图片地址 */
+/* 。。。。 */
+.write-index {
+  height: calc(100vh - 44px);
+  overflow: hidden;
+  background-color: #FAF8F7;
+}
+.write-index .tab-box {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 36rpx;
+  display: flex;
+  padding-bottom: 20rpx;
+}
+.write-index .tab-box .tab-item {
+  width: 50%;
+  height: 60rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+.write-index .tab-box .tab-item:nth-child(1) {
+  border-right: 2rpx solid #FFEDDC;
+}
+.write-index .tab-box .tab-item image {
+  width: 130rpx;
+  height: 26rpx;
+  position: absolute;
+  bottom: -18rpx;
+  left: 40%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.write-index .tab-box .tab-item.is-active {
+  font-size: 32rpx;
+  color: #000000;
+}
+.write-index .container {
+  height: calc(100% - 82rpx);
+  overflow-y: auto;
+}
+
